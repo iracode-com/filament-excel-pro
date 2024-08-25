@@ -1,0 +1,40 @@
+{
+  "name": "iracode-com/filament-excel-pro",
+  "description": "Filament plugin for advanced Excel file data entry based on `SpartanNL/Laravel-Excel` package",
+  "type": "filament-plugin",
+  "keywords": [
+    "laravel",
+    "filament",
+    "filament-excel",
+    "maatwebsite-excel",
+    "excel",
+    "import",
+    "export"
+  ],
+  "require": {
+    "filament/filament": "^3.2",
+    "spatie/laravel-package-tools": "^1.16",
+    "maatwebsite/excel": "^3.1"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "IracodeCom\\FilamentExcelPro\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "IracodeCom\\FilamentExcelPro\\FilamentExcelProServiceProvider"
+      ]
+    }
+  },
+  "authors": [
+    {
+      "name": "ardavanshamroshan",
+      "email": "ardavanshamroshan@yahoo.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
